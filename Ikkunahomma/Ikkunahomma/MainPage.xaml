@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Ikkunahomma.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ikkunahomma"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="ilev" HorizontalAlignment="Left" Margin="753,96,0,0" TextWrapping="Wrap" Text="Ikkunan leveys (L):" FontSize="25" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ikor" HorizontalAlignment="Left" Margin="728,163,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus (H):" FontSize="25" VerticalAlignment="Top"/>
+        <TextBlock x:Name="kale" HorizontalAlignment="Left" Margin="708,230,0,0" TextWrapping="Wrap" Text="Karmipuun leveys (W):" FontSize="25" VerticalAlignment="Top"/>
+        <TextBox x:Name="ilev1" HorizontalAlignment="Left" Margin="958,96,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="ikor1" HorizontalAlignment="Left" Margin="958,163,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="kale1" HorizontalAlignment="Left" Margin="958,230,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <TextBlock x:Name="iala" HorizontalAlignment="Left" Margin="738,343,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala:" FontSize="25" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lala" HorizontalAlignment="Left" Margin="769,414,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala:" FontSize="25" VerticalAlignment="Top"/>
+        <TextBlock x:Name="kpii" HorizontalAlignment="Left" Margin="803,485,0,0" TextWrapping="Wrap" Text="Karmin piiri:" FontSize="25" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="iala1" HorizontalAlignment="Left" Margin="958,343,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="lala1" HorizontalAlignment="Left" Margin="958,414,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="kpii1" HorizontalAlignment="Left" Margin="958,485,0,0" TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" Width="187"/>
+        <Button x:Name="laske" Content="Laske" HorizontalAlignment="Left" Margin="1015,294,0,0" VerticalAlignment="Top" Click="laske_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="689" Margin="0,122,0,-91" VerticalAlignment="Top" Width="675" Source="Images/Sieppaa.PNG"/>
+
+
+    </Grid>
+</Page>
