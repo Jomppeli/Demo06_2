@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Euromarkka.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Euromarkka"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="euromarkka" HorizontalAlignment="Left" Margin="345,10,0,0" TextWrapping="Wrap" Text="EURO/MARKKA-LASKURI" FontSize="55" VerticalAlignment="Top" Height="95" Width="618"/>
+        <TextBox x:Name="eurot" HorizontalAlignment="Left" Margin="345,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20" Height="58" Width="111"/>
+
+        <TextBox x:Name="markat" HorizontalAlignment="Left" Margin="723,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20" Height="58" Width="107"/>
+        <TextBox x:Name="euroina" HorizontalAlignment="Left" Margin="723,374,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20" Height="52" Width="111"/>
+        <TextBox x:Name="markkoina" HorizontalAlignment="Left" Margin="345,374,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20" Height="52" Width="111"/>
+        <Button x:Name="markoiksi" Content="MUUTA" HorizontalAlignment="Left" Margin="456,231,0,0" VerticalAlignment="Top" Click="markoiksi_Click_1"/>
+        <Button x:Name="euroiksi" Content="MUUTA" HorizontalAlignment="Left" Margin="830,231,0,0" VerticalAlignment="Top" Click="euroiksi_Click"/>
+        <TextBox x:Name="markkoina1" HorizontalAlignment="Left" Margin="244,394,0,0" TextWrapping="Wrap" Text="Markkoina:" FontSize="15" VerticalAlignment="Top"/>
+        <TextBox x:Name="euroina1" HorizontalAlignment="Left" Margin="644,394,0,0" TextWrapping="Wrap" Text="Euroina:" FontSize="15" VerticalAlignment="Top"/>
+        <TextBox x:Name="markkoina1_Copy" HorizontalAlignment="Left" Margin="213,231,0,0" TextWrapping="Wrap" Text="Eurot markoiksi:" FontSize="15" VerticalAlignment="Top"/>
+        <TextBox x:Name="markkoina1_Copy1" HorizontalAlignment="Left" Margin="596,231,0,0" TextWrapping="Wrap" Text="Markat euroiksi:" FontSize="15" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="370.049,284.344,0,0" FontSize="50" TextWrapping="Wrap" Text="-->" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="90.00"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="743.382,286.319,0,0" FontSize="50" TextWrapping="Wrap" Text="--&gt;" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="90.00"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+    </Grid>
+</Page>
